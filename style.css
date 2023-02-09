@@ -11,7 +11,6 @@
     background-image: url('images/banner/banner1.png');
     background-size: cover;
     background-repeat: no-repeat;
-    max-width: 100%;
     margin: 0;
 
 }
@@ -23,6 +22,8 @@
     max-width: 100%;
 
 }
+
+
 
 .banner-description {
     font-weight: 400;
@@ -76,6 +77,7 @@
     margin-left: 206px;
 }
 
+/* my plans */
 .plan-text {
     text-align: center;
     margin-bottom: 50px;
@@ -106,15 +108,14 @@
     color: #737272;
 }
 
+/* keep a positive mindset */
 .mindset {
     background-image: url('images/watch.png'), url('images/gradient2.png');
     background-blend-mode: multiply;
     border-radius: 8px;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 130px;
-    margin-left: 230px;
-    margin-right: 230px;
+    margin: 130px 230px;
     padding: 59px 617px 59px 64px;
 }
 
@@ -124,7 +125,7 @@
     font-size: 40px;
 }
 
-.mind-btn {
+.mindset-btn {
     color: #F15B22;
     background: #FFFFFF;
     border-radius: 5px;
@@ -134,4 +135,68 @@
     font-weight: 600;
     font-size: 20px;
     text-align: center;
+}
+
+/* footer */
+footer {
+    background-color: #151414;
+    display: flex;
+    align-items: center;
+    gap: 331px;
+}
+
+/* footer left */
+.left {
+    padding-left: 230px;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+footer h3 {
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+footer p {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.footer-icon {
+    display: flex;
+}
+
+/* footer right */
+.right {
+    padding-right: 229px;
+    padding-top: 130px;
+    padding-bottom: 243px;
+}
+
+footer h4 {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 31px;
+}
+
+#mail {
+    display: block;
+
+
+}
+
+.footer-btn {
+    color: #F15B22;
+    background: #FFFFFF;
+    border-radius: 5px;
+    height: 64px;
+    width: 160px;
+    padding: 21px 25px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 16px;
 }
