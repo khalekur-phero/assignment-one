@@ -11,12 +11,16 @@
     background-image: url('images/banner/banner1.png');
     background-size: contain;
     background-repeat: no-repeat;
+    max-width: 100%;
+
 }
 
 .banner-head {
     font-weight: 700;
     font-size: 24px;
     margin-bottom: 24px;
+    max-width: 100%;
+
 }
 
 .banner-description {
@@ -41,18 +45,62 @@
 /* main-body design */
 .main-lines {
     display: flex;
-    justify-content: space-around;
     align-items: center;
 }
 
 .main-title {
     font-weight: 700;
     font-size: 40px;
+
+
 }
+
+.main-text {
+    width: 416px;
+    margin-top: 370px;
+    margin-left: 87px;
+    margin-right: 322px;
+}
+
 
 .main-description {
     font-weight: 400;
     font-size: 16px;
     color: #444343;
 
+}
+
+.main-image {
+    margin-top: 131px;
+    margin-left: 206px;
+}
+
+.plan-text {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.plans {
+    margin: 130px 230px;
+}
+
+.plan-items {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414
+}
+
+.plan-description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
 }
